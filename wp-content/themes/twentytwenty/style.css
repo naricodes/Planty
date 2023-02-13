@@ -4827,7 +4827,7 @@ a.to-the-top > * {
 	.heading-size-5,
 	h6,
 	.heading-size-6 {
-		margin: 4.5rem auto 2.5rem;
+		/* margin: 4.5rem auto 2.5rem; */
 	}
 
 	h1,

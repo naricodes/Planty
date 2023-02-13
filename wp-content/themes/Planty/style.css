@@ -11,3 +11,33 @@ Updated: 2023-02-05 17:52:49
 
 */
 
+@media screen and (min-width: 1440px) {
+	body {
+	  width: 1440px;
+	}
+}
+
+body{
+	/* width: 1440px; */
+	margin: 0 auto;
+}
+
+/* p*/
+
+.elementskit-navbar-nav-default li#menu-item-252{
+    display: none!important;
+}
+.elementor-28 .elementor-image-box-img img, .elementor-28  .elementor-image-box-wrapper .elementor-image-box-img {
+  margin: auto;
+}
+
+ /*form*/
+
+.nm-btn {
+  position: absolute!important;
+    left: 50%;
+    top: 4%;
+    transform: translate(-50%, 10px);
+    background: #E0B9B4!important;
+    border-radius: 5px!important;
+}
