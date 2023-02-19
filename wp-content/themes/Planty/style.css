@@ -2,42 +2,152 @@
 Theme Name: Twenty Twenty Child
 Theme URI: https://wordpress.org/themes/twentytwenty/
 Template: twentytwenty
-Author: the WordPress team
-Author URI: https://wordpress.org/
-Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
-Tags: blog,one-column,custom-background,custom-colors,custom-logo,custom-menu,editor-style,featured-images,footer-widgets,full-width-template,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,block-patterns,block-styles,wide-blocks,accessibility-ready
-Version: 2.1.1675615969
-Updated: 2023-02-05 17:52:49
-
+Author: narimene
 */
+/* width: 1440px; */
 
-@media screen and (min-width: 1440px) {
-	body {
-	  width: 1440px;
-	}
-}
-
-body{
-	/* width: 1440px; */
+body {
 	margin: 0 auto;
+	font-family: "syne"!important;
 }
 
-/* p*/
-
-.elementskit-navbar-nav-default li#menu-item-252{
-    display: none!important;
-}
-.elementor-28 .elementor-image-box-img img, .elementor-28  .elementor-image-box-wrapper .elementor-image-box-img {
-  margin: auto;
-}
-
- /*form*/
+ /*formulaire 1*/
 
 .nm-btn {
-  position: absolute!important;
+    position: absolute!important;
     left: 50%;
     top: 4%;
     transform: translate(-50%, 10px);
     background: #E0B9B4!important;
     border-radius: 5px!important;
+	width: 198px!important;
+	height:55px!important;
 }
+.div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button{
+	color:white!important;
+}
+
+.wpforms-field-medium{
+	border-radius: 7px!important;
+	height: 237px!important;
+	width: 383px!important;
+}
+.wpforms-field-large{
+	border-radius: 7px!important;
+	height: 71px!important;
+	width: 383px!important;
+
+}
+.wpforms-field-label{
+	font-weight: 400!important;
+	font-size: 20px!important;
+}
+
+ /*formulaire 2*/
+
+.counter form {
+	display:flex;
+}
+.counter form input {
+	max-width:70px!important;
+	padding:0 0 0 10px!important;
+}
+.counter form button[type="submit"]{
+
+	font-size:16px!important;
+	padding:0 5px!important;
+	height:38px;
+	background: #E0B9B4!important;
+    border-radius: 5px;
+	color:white!important;
+	border:none!important;
+}
+
+#forminator-module-672{
+    display:grid;
+	grid-template-columns:300px 300px;
+	place-items:center;
+	place-content:center;
+	position:relative;
+	z-index:99;
+    font-family: "Syne", Sans-serif !important;
+}
+
+#forminator-module-672 {
+	grid-template-columns:50% 50%;
+}
+.forminator-ui#forminator-module-672.forminator-design--default .forminator-input, .forminator-ui#forminator-module-672.forminator-design--default .forminator-input:hover, .forminator-ui#forminator-module-672.forminator-design--default .forminator-input:focus, .forminator-ui#forminator-module-672.forminator-design--default .forminator-input:active {
+	width: 383px;
+	height:71px;
+    max-width: 450px;
+	border-radius:7px ;
+}
+.forminator-repeater-label {
+	position:relative;
+	left:20px!important
+}
+.forminator-row-last  {
+	bottom:-40px!important;
+}
+
+.forminator-row-last {
+	position:absolute;
+	bottom:0px;
+}
+
+.forminator-repeater-add {
+	display:none!important
+}
+
+.forminator-repeater-label{
+  font-weight: 700!important;
+  font-size: 30px!important;
+  line-height: 36px;
+  font-family: "Syne", Sans-serif !important;
+}
+
+.forminator-ui#forminator-module-672.forminator-design--default .forminator-repeater-field {
+  background-color:transparent!important;
+  box-shadow:none!important
+}
+
+.forminator-ui#forminator-module-672.forminator-design--default .forminator-label {
+	color:white!important;
+}
+
+/*seperator of form 2 img*/
+
+.img-btwn {
+	position:absolute;
+}
+
+.img-btwn img{
+  position:relative;
+	top: 100px;
+	left:-8px
+}
+
+.forminator-ui#forminator-module-672.forminator-design--default .forminator-button-submit {
+  background: #E0B9B4!important;
+  border-radius: 5px;
+  width: 198px;
+  height: 55px;
+}
+.forminator-ui#forminator-module-672.forminator-design--default .forminator-response-message.forminator-success, .forminator-ui#forminator-module-672.forminator-design--default .forminator-response-message.forminator-success p {
+	position: absolute;
+	}
+
+/* commander page body css */
+.page-id-30 {
+    overflow-x: hidden;
+}
+
+/*responsive form 2*/
+@media screen  and (max-width:800px){
+	.forminator-ui#forminator-module-672.forminator-design--default .forminator-input, .forminator-ui#forminator-module-672.forminator-design--default .forminator-input:hover, .forminator-ui#forminator-module-672.forminator-design--default .forminator-input:focus, .forminator-ui#forminator-module-672.forminator-design--default .forminator-input:active {
+		width: 100%;
+		max-width: 450px;
+	}
+}
+
+
