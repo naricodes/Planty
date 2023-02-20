@@ -148,6 +148,13 @@ body {
 		width: 100%;
 		max-width: 450px;
 	}
+	.forminator-grouped-fields{
+		display: block!important;
+	}
+	.img-btwn{
+		display: none;
+	}
+
 }
 
 

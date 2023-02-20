@@ -40,10 +40,13 @@ function wp_admin_link_for_admins($items, $args)
 // 2 is the number of argument(s)
 add_filter('wp_nav_menu_items', 'wp_admin_link_for_admins', 10, 2);
 
-// adding css
 function nm_stylesheet()
 {
     wp_enqueue_style('my-stylesheet', get_template_directory_uri() . 'style.css');
 }
 add_action('wp_enqueue_scripts', 'nm_stylesheet');
+
+
+
+
 
